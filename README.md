@@ -3,66 +3,42 @@
 ## Build Setup
 
 ```bash
-# install dependencies
+# Instalar dependencias
 $ npm install
 
-# serve with hot reload at localhost:3000
+# Arrancar proyecto en local en localhost:3000
 $ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+## Code Challenge
+En este Challenge (no será largo, lo prometemos), usarás **Nuxt.js** para maquetar el diseño de una página a partir de un diseño en Figma. El challenge será replicar una de las páginas de nuestra plataforma: https://lol.kaikoo.pro/champions (sin side-bar ni nav-bar, solo el contenido).
 
-## Special Directories
+### Primer paso
+Realizar una petición GET al entrar a la página para recibir un JSON con los datos actualizados de todos los campeones de League of Legends. El endpoint es:
+```bash
+$ GET https://back.kaikoo.pro:8888/api/champions
+```
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+### Segundo paso
+Iterar sobre esos datos y pintar una Card para cada campeón con los datos de su JSON que aparecen en el figma:
+https://www.figma.com/file/A7B9BcUtvY8WvjQ1bYZu59/Champions?node-id=60%3A2112&t=HAWakOMb81HhMzfD-0
 
-### `assets`
+Añade también el efecto de hover que aparece en el figma
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+![image](https://user-images.githubusercontent.com/78962636/210406701-0f55e966-5ae0-4d28-8442-c84db07ab07b.png)
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
+### Tercer paso
+Añade una barra de filtrado para los campeones. Se puede filtrar por nombre, por posición y por dificultad. Los filtros tienen que aplicarse en tiempo real y pueden ser borrados en cualquier momento
 
-### `components`
+### Cuarto paso (OPCIONAL)
+Añade una funcionalidad para guardar campeones en favoritos. No te preocupes por el diseño, añade un botón en algún sitio dentro de la card para añadir/eliminar campeones de Favoritos. Añade también un filtro que muestre solo los campeones guardados en favoritos.
 
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
+## Instrucciones
+**NO QUEREMOS ROBARTE MUCHO TIEMPO**
+  · No hace falta hacer over-engineering, haz simplemente lo que te pedimos de la mejor forma que sepas, del mismo modo que lo harías en tu día a día en nuestra empresa.
+  · No te preocupes de diseño responsive ni de dispositivos móviles
 
-### `layouts`
+## Instrucciones para compartir tu solución
+Clona nuestro repositorio y súbelo a tu github como repositorio privado. Invita a nuestro CTO [Jose Pina](https://github.com/josepinaKaikoo) y a nuestro Frontend [Alejandro Maldonado](https://github.com/amaldonadokaikoo). De esta manera, podremos revisar tu código y tenerlo a mano para el siguiente paso: una entrevista personal 👻
 
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
-### `pages`
-
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
