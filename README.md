@@ -14,13 +14,13 @@ $ npm run dev
 En este Challenge (no será largo, lo prometemos), usarás **Nuxt.js** para maquetar el diseño de una página a partir de un diseño en Figma. El challenge será replicar una de las páginas de nuestra plataforma: https://lol.kaikoo.pro/champions (sin side-bar ni nav-bar, solo el contenido).
 
 ### Primer paso
-Realizar una petición GET al entrar a la página para recibir un JSON con los datos actualizados de todos los campeones de League of Legends. El endpoint es:
+Realiza una petición GET al entrar a la página para recibir un JSON con los datos actualizados de todos los campeones de League of Legends. El endpoint es:
 ```bash
 $ GET https://back.kaikoo.pro:8888/api/champions
 ```
 
 ### Segundo paso
-Iterar sobre esos datos y pintar una Card para cada campeón con los datos de su JSON que aparecen en el figma:
+Itera sobre la respuesta y pintar una Card para cada campeón con los datos de su JSON que aparecen en el figma:
 https://www.figma.com/file/A7B9BcUtvY8WvjQ1bYZu59/Champions?node-id=60%3A2112&t=HAWakOMb81HhMzfD-0
 
 Añade también el efecto de hover que aparece en el figma
