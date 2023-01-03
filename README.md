@@ -36,6 +36,7 @@ Añade una funcionalidad para guardar campeones en favoritos. No te preocupes po
 
 ## Instrucciones
 **NO QUEREMOS ROBARTE MUCHO TIEMPO**
+
   · No hace falta hacer over-engineering, haz simplemente lo que te pedimos de la mejor forma que sepas, del mismo modo que lo harías en tu día a día en nuestra empresa.
   · No te preocupes de diseño responsive ni de dispositivos móviles
 
