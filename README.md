@@ -39,6 +39,8 @@ Añade una funcionalidad para guardar campeones en favoritos. No te preocupes po
 
   · No te preocupes de diseño responsive ni de dispositivos móviles
 
+  · No hace falta hacer tests
+
 ## Instrucciones para compartir tu solución
 Clona nuestro repositorio y súbelo a tu github como repositorio privado. Invita a nuestro CTO [Jose Pina](https://github.com/josepinaKaikoo) y a nuestro Frontend [Alejandro Maldonado](https://github.com/amaldonadokaikoo). De esta manera, podremos revisar tu código y tenerlo a mano para el siguiente paso: una entrevista personal 👻
 
