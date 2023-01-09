@@ -22,6 +22,11 @@ $ GET https://back.kaikoo.pro:8888/api/champions
 
 https://www.figma.com/file/EVwNS7MNeEujU5GUiTjfQ0/Prueba-de-nivel
 
+Las imágenes necesarias para el hover las puedes obtener con esta URL:
+```bash
+https://cdn.communitydragon.org/latest/champion/${nameId}/splash-art/centered
+```
+
 · Por último, añade una barra de filtrado para los campeones. Se puede filtrar por nombre, por posición y por dificultad. Los filtros tienen que aplicarse en tiempo real y pueden ser borrados en cualquier momento.
 
 ### Tarea opcional
