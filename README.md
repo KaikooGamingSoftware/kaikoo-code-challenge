@@ -26,6 +26,10 @@ Las imágenes necesarias para el hover las puedes obtener con esta URL:
 ```bash
 https://cdn.communitydragon.org/latest/champion/${nameId}/splash-art/centered
 ```
+**COMMUNITY DRAGON ESTÁ CAÍDO.** Esperamos que vuelva pronto, si sigue sin funcionar podéis obtener las imágenes con esta URL:
+```bash
+https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${nameId}_0.jpg
+```
 
 · Por último, añade una barra de filtrado para los campeones. Se puede filtrar por nombre, por posición y por dificultad. Los filtros tienen que aplicarse en tiempo real y pueden ser borrados en cualquier momento.
 
